@@ -1,0 +1,61 @@
+
+.footer{
+width: 100%;
+background-color: bisque;
+
+display: flex;
+padding: 20px;
+
+}
+.footer>div{
+    padding: 15px;
+    line-height: 30px;
+}
+.footer>div img{
+    width: 120px;
+}
+.footer>div ul li{
+    list-style: none;
+}
+.footer>div input{
+    padding: 15px 20px 15px 20px;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+    margin: 10px 10px 0px 0px;
+}
+.bi-facebook{
+    color: blue;
+    font-size: 25px;
+}
+.bi-facebook:hover{
+    font-size: 30px;
+}
+.bi-twitter{
+color: skyblue;
+font-size: 25px;
+}
+.bi-twitter:hover{
+    font-size: 30px;
+}
+
+.bi-instagram{
+    color: rgb(255, 0, 153);
+font-size: 25px;
+}
+.bi-instagram:hover{
+    
+font-size: 30px;
+}
+.footer>div button{
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 50px;
+}
+.main-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px 10px 10px;
+    background-color: bisque;
+}
