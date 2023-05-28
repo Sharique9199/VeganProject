@@ -4,10 +4,11 @@
             "id":1 ,
             "img": "https://veganessentials.com/cdn/shop/products/major-english-toffee-bar-by-go-max-go-foods-box-of-12-vegan-essentials-online-store_250x250.jpg?v=1666993957",
             "name":"Major English Toffee Bar by Go Max Go Foods - Box of",
-            "review":2 ,
-            "price": 29.95,
-            "stock":"In Stock",
-            "btn":"ADD TO CART"
+            "review": 3,
+             "price": 12.99,
+             "discountPer": "10",
+            "doscountRupee": "9.99",
+            "inStock": true
         },
         {
             "id":2 ,
@@ -22,7 +23,7 @@
             "id":3 ,
             "img": "https://veganessentials.com/cdn/shop/products/buccaneer-candy-bar-by-go-max-go-foods-box-of-12-vegan-essentials-online-store_250x250.jpg?v=1666990354",
             "name":"Buccaneer Candy Bar by Go Max Go Foods - box of 12",
-            
+        
             "price": 29.95,
             "stock":"In Stock",
             "btn":"ADD TO CART"
