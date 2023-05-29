@@ -89,15 +89,16 @@ input[type=text]:not(.browser-default){
     height: 0px !important;
 }
 #search-bar>input {
+    
     border: 1px solid red;
     width: 100%;
-    margin: auto 0;
+    margin-top: 0.6rem ;
     border-radius: 20px 0 0 20px;
     border: none;
     margin-left: 0.5rem;
     outline: none;
     background-color: rgb(214, 211, 211);
-    padding:1.5rem;
+    padding:1.39rem !important;
     /* height: 74%; */
 
 }
