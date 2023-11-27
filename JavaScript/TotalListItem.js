@@ -113,7 +113,7 @@ for (let i = 0; i < incBtn.length; i++) {
                     return item;
                 }
             })
-            singleCardTotalPrice[i].innerHTML = itemPrice[i].innerHTML * decBtn[i].parentElement.firstElementChild.nextElementSibling.innerHTMLI
+            singleCardTotalPrice[i].innerHTML = itemPrice[i].innerHTML * decBtn[i].parentElement.firstElementChild.nextElementSibling.innerHTML;
             localStorage.setItem('addtoCartData', JSON.stringify(updatedItem))
         }
     })
