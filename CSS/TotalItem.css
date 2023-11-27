@@ -1,0 +1,135 @@
+.cart h1{
+    text-align: center;
+    padding-top: 0.8rem ;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.cart-heading{
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+
+}
+#product{
+    width: 60%;
+}
+#product>h2{
+    text-align: center;
+}
+#quantity{
+    width: 25%;
+}
+#quantity>h2{
+    margin-left: 5.5rem;
+    
+}
+#total{
+    width: 15%;
+}
+#total>h2{
+    text-align: center;
+    /* padding-left: 0.5rem; */
+}
+hr{
+    width: 70%;
+    margin:auto;
+    margin-top: 1.2rem;
+}
+.cart-items{
+    width: 70%;
+    margin: auto;
+    margin-top: 1.2rem;
+    display: flex;
+}
+.cart-img-items{
+    width: 15%;
+}
+.cart-img-items>img{
+    width: 100%;
+    
+}
+.cart-details{
+    width: 45%;
+    padding: 0.8rem;
+}
+.cart-details h2{
+    padding-top:1.2rem;
+}
+.cart-details>h2+p{
+    /* margin-top: 2.5rem; */
+    padding-top: 1.2rem;
+    font-weight: 800;
+}
+.cart-details>h2+p+button{
+    margin-top: 0.5rem;
+    width: 3.5rem;
+    padding: 0.3rem;
+    background-color:rgb(140,208,227);
+    font-weight: bold;
+    border: none;
+}
+.cart-quantity{
+    width: 25%;
+}
+.cart-quantity>div{
+    width: 75%;
+    border: 1px solid grey;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 1rem;
+}
+#remove{
+    
+    display: inline-block;
+    margin-left: 6.5rem;
+    padding-top: 0.9rem;
+    cursor: pointer;
+    
+}
+.dec,.inc{
+    cursor: pointer;
+}
+.cart-price{
+    width: 15%;
+}
+.cart-price>h3{
+    text-align: center;
+    margin: 5rem 0 0 0;
+}
+.cart-calculation{
+    width: 70%;
+    margin: auto;
+    margin-top: 0.5rem;
+    display: flex;
+}
+.cart-calculation>div{
+    width: 50%;
+    
+}
+.cart-calculation>div:last-child>h3{
+    text-align: end;
+    padding:0.5rem 3.5rem 0 0;
+}
+.cart-calculation>div:last-child>h3+p{
+    text-align: center;
+    padding:0.5rem 0 0 9.5rem;
+    font-weight: 500;
+}
+#checkout{
+    display: block;
+    float: right;
+    margin: 0.5rem 3.5rem 0 0;
+    padding: 0.5rem;
+    width: 35%;
+    background-color:rgb(140,208,227);
+    border: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+  
+}

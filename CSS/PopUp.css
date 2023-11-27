@@ -1,0 +1,108 @@
+#popup-wraper {
+    display: none;
+}
+
+.popupContainer {
+    width: 38%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 6;
+    background-color: #ffffff;
+    opacity: 5 !important;
+    border-radius: 10px;
+    border: 1px solid red;
+    /* box-shadow: 3px 3px rgba(147, 65, 65, 0.5); */
+
+}
+
+.crossIcon {
+    text-align: end;
+    padding: 0.5rem 0.7rem 0 0;
+    font-size: 1rem;
+
+
+}
+
+.popUpDiv {
+    width: 100%;
+}
+
+.imgAndDesDiv {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    /* margin-bottom: 1rem; */
+
+}
+
+.imgDiv {
+    width: 30%;
+    /* border: 1px solid black; */
+}
+
+.imgDiv img {
+    width: 100%;
+}
+
+.descDiv {
+    width: 65%;
+}
+
+.descDiv h3 {
+    padding-left: 1rem;
+    font-size: 1.4rem;
+    color: rgb(34, 47, 62);
+}
+
+.countAndPrice {
+    /* margin-top: -0.9rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem 0 1rem;
+}
+
+.countAndPrice p {
+     padding: 0.5rem;
+    color: #fff;
+
+}
+
+.bothBtnDiv {
+
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.bothBtnDiv button {
+    width: 45%;
+    padding: 0.7rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+
+
+}
+
+.bothBtnDiv button:first-child {
+
+    border: none;
+    background-color: rgb(234, 154, 68);
+    cursor: pointer;
+    color: #fff;
+}
+
+.bothBtnDiv button:last-child {
+
+    border: none;
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+}

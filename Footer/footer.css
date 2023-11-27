@@ -1,0 +1,92 @@
+
+.footer{
+    width: 100%;
+    background-color: rgb(170, 218, 198);
+    display: flex;
+    padding: 20px;
+    margin-top: 1.5rem;
+ }
+.footer>div{
+    padding: 1.2rem;
+    line-height: 30px;
+}
+.footer>div:first-child{
+    padding-left: 4.9rem;
+    font-size: 0.9rem;
+}
+.footer>div h4{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.footer>div img{
+    width: 120px;
+}
+.footer>div ul li{
+    list-style:  none;
+}
+
+.company_info li a:hover{
+    color: rgb(232, 114, 23);
+}
+.footer>div:last-child{
+    width: 35%;
+}
+
+.footer>div:last-child input{
+    padding: 1.5rem;
+    width: 50%;
+    background-color: rgb(130, 139, 139);
+    color: black;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+  
+   
+}
+.bi-facebook{
+    color: blue;
+    font-size: 25px;
+}
+.bi-facebook:hover{
+    font-size: 30px;
+}
+.bi-twitter{
+    color: skyblue;
+    font-size: 25px;
+}
+.bi-twitter:hover{
+    font-size: 30px;
+ }
+.bi-instagram{
+    color: rgb(255, 0, 153);
+    font-size: 25px;
+}
+.bi-instagram:hover {  
+   font-size: 30px;
+}
+.footer>div button{
+    padding: 0.9rem;
+    width: 35%;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(42, 224, 121);
+}
+.footer>div button:hover{
+    background-color: rgb(223, 164, 13);
+    cursor: pointer;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.main-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:0.5rem 7.5rem 0.5rem 4.9rem;
+    background-color: rgb(170, 218, 198);
+    border-top: 1px solid grey;
+    
+}

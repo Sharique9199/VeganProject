@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1a0a802c64.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../CSS/shopCategory.css">
+    <link rel="stylesheet" href="../Header/header.css">
+    <link rel="stylesheet" href="../Footer/footer.css">
+
+    
+    <title>Shop & Category</title>
+</head>
+<body>
+    <main>
+
+        <div id="header"></div>
+    <div class="shop-btn">
+        <a href="#"><button>Meat & Seafood</button></a>
+        <a href="./baked.html"><button>Baked Goods</button></a>
+       <a href="#"> <button>Snacks</button></a>
+        <a href="#"><button>Pantry Essentials</button></a>
+        <a href="./cheese.html"><button>Cheese, Eggs & Dairy</button></a>
+        <a href="#"><button>Pet Products</button></a>
+        <a href="#"><button>Chocolate, Candy & Sweets</button></a>
+    </div>
+    
+    <section class="category-section">
+
+        <div class="category-img-cart">
+           <a href="#">
+            <img src="https://veganessentials.com/cdn/shop/files/meat-and-seafood.webp?v=1677871090" alt="">
+            <p>Meat & Seafood</p>
+           </a>
+        </div>
+        <div class="category-img-cart">
+            <a href="./baked.html">
+                <img src="https://veganessentials.com/cdn/shop/files/baked-goods.webp?v=1677871411" alt="">
+            <p>Baked Goods</p>
+            </a>
+        </div>
+        <div class="category-img-cart">
+           <a href="#">
+            <img src="https://veganessentials.com/cdn/shop/products/RhythmSuperfoods-OrganicKaleChipsKoolRanch_250x250.jpg?v=1669891674" alt="">
+            <p>Snacks</p>
+           </a>
+        </div>
+        <div class="category-img-cart">
+            <a href="#">
+                <img src="https://veganessentials.com/cdn/shop/products/let-s-do-organic-sweetened-condensed-coconut-milk-vegan-essentials-online-store_250x250.jpg?v=1666993729" alt="">
+            <p>Pantry Essentials</p>
+            </a>
+        </div>
+        <div class="category-img-cart">
+            <a href="./cheese.html">
+                <img src="https://veganessentials.com/cdn/shop/collections/9d24a3705a4a5b9060f8bb4896f81251_1024x1024.png?v=1666985869" alt="">
+            <p>Cheese, Eggs & Dairy</p>
+            </a>
+        </div>
+        <div class="category-img-cart">
+           <a href="#">
+            <img src="https://veganessentials.com/cdn/shop/products/LordJameson-OrganicDogTreats-CocoCrush_6oz_250x250.jpg?v=1672996668" alt="">
+            <p>Pet Products</p>
+           </a>
+        </div>
+        <div class="category-img-cart">
+           <a href="#">
+            <img src="https://cdn.shopify.com/s/files/1/0612/9260/9676/files/chocolate-candy-sweets_e12f7658-713e-4baf-a511-1ac0ab89ab68.webp" alt="">
+            <p>Chocolate, Candy & Sweets</p>
+           </a>
+        </div>
+       
+    </section>
+
+    <div id="footer"></div>
+</main>
+</body>
+
+</html>
+<script type="module">
+    import {header} from '../Header/header.js'
+    document.getElementById('header').innerHTML=header();
+
+    import {footer} from '../Footer/footer.js'
+    document.getElementById('footer').innerHTML=footer();
+
+</script>

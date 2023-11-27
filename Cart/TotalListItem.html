@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../Header/header.css">
+    <link rel="stylesheet" href="../Footer/footer.css"> -->
+    <link rel="stylesheet" href="../CSS/TotalItem.css">
+    <script src="https://kit.fontawesome.com/1a0a802c64.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../CSS/shopCategory.css">
+    <link rel="stylesheet" href="../Header/header.css">
+    <link rel="stylesheet" href="../Footer/footer.css">
+    <title>Total Item's</title>
+</head>
+<body>
+    <main>
+        <div id="header"></div>
+
+        <section class="cart">
+            <h1>cart</h1>
+            <div class="cart-heading">
+                <div id="product">
+                    <h2>Product</h2>
+                </div>
+                <div id="quantity">
+                    <h2>Quantity</h2>
+                </div>
+                <div id="total">
+                    <h2>Total</h2>
+                </div>
+
+            </div>
+            <hr>
+
+            <div class="payment_cart">
+                <div class="cart-items">
+                </div>
+            </div>
+            
+            <hr>
+            <div class="cart-calculation">
+                <div>
+                    <img src="https://tubular-queijadas-b99c86.netlify.app/static/media/payment_img.451644cd43eb50a51bd9.PNG"
+                        alt="">
+                </div>
+                <div>
+                    <h3>Total:$521</h3>
+                    <p>Shipping & taxes calculated at checkout</p>
+                    <button id="checkout">checkout</button>
+                </div>
+
+            </div>
+        </section>
+
+        <div id="footer"></div>
+    </main>
+</body>
+<script src="../JavaScript/TotalListItem.js"></script>
+</html>
+<script type="module">
+    import {header} from '../Header/header.js'
+    document.getElementById("header").innerHTML=header();
+
+    import {footer} from '../Footer/footer.js'
+    document.getElementById('footer').innerHTML=footer()
+
+</script>

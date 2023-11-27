@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/PopUp.css">
+    <link rel="stylesheet" href="../Header/header.css">
+   
+    <link rel="stylesheet" href="../Footer/footer.css">
+    <script src="https://kit.fontawesome.com/1a0a802c64.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Baked Page</title>
+</head>
+<body>
+    <main>
+        <div id="header"></div>
+
+        <div class="container" id="img-cart-container-1">
+                
+        </div>
+
+        <div id="footer"></div>
+        <div id="popup"></div>
+    </main>
+</body>
+</html>
+<script type="module">
+    import {header} from '../Header/header.js'
+    document.getElementById('header').innerHTML=header();
+
+    import {footer} from '../Footer/footer.js'
+    document.getElementById('footer').innerHTML=footer();
+    
+</script>
+<script src="../JavaScript/baked.js" type="module"></script>
