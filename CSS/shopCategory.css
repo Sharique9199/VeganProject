@@ -1,10 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    /* *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } */
 .shop-btn{
-    margin-top: 1rem;
+    margin-top: 5rem;
     width: 100%;
     display: flex;
     justify-content: space-around;

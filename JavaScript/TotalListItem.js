@@ -94,7 +94,9 @@ for (let i = 0; i < decBtn.length; i++) {
                 }
             })
             singleCardTotalPrice[i].innerHTML = itemPrice[i].innerHTML * decBtn[i].parentElement.firstElementChild.nextElementSibling.innerHTML
+            totalCalulation();
             localStorage.setItem('addtoCartData', JSON.stringify(updatedItem))
+           
         }
     })
 }
@@ -114,12 +116,33 @@ for (let i = 0; i < incBtn.length; i++) {
                 }
             })
             singleCardTotalPrice[i].innerHTML = itemPrice[i].innerHTML * decBtn[i].parentElement.firstElementChild.nextElementSibling.innerHTML;
+            totalCalulation();
             localStorage.setItem('addtoCartData', JSON.stringify(updatedItem))
+           
         }
     })
 }
 
 //calculate total price
+
+
+
+
+function totalCalulation(){
+   
+    let sum=0;
+    for(let i=0;i<singleCardTotalPrice.length;i++){
+        var amt=singleCardTotalPrice[i].innerHTML;
+        sum =(+(sum)+ +(amt)).toFixed(2);
+        console.log("Total",sum);
+    }
+    document.getElementById('totalPrice').innerHTML="Total:"+sum;
+}
+totalCalulation()
+
+
+
+
 
 
 

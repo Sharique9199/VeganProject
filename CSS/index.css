@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-color: red; */
+   
 }
 
 /* slider css start.......................... */
@@ -43,6 +45,7 @@
 #delevery-tracking {
     width: 80%;
     display: flex;
+
     margin: auto;
 }
 
@@ -426,7 +429,7 @@ background-color: black; */
     border: 1px solid black;
     font-weight: 600;
     cursor: pointer;
-   
+}
 
 #shoping-button {
     background-color: rgb(140, 208, 227);
@@ -450,3 +453,85 @@ background-color: black; */
     border: 1px solid red;
     display: none;
 }
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .slider {
+        height: 150px;
+        width: 100%;
+        display: none;
+    }
+    #delevery-tracking {
+        width: 95%;
+        display: flex;
+       flex-direction: column;
+       display: none;
+        /* background-color: red; */
+    }
+    
+    .delevery-tracking-cart {
+        width: 60%;
+       
+        padding: 0.5rem;
+        border-bottom:1px solid black;
+        /* display: flex; */
+    }
+    
+    .delevery-tracking-icon {
+        width: 15%;
+    }
+    
+    .delevery-tracking-details {
+        width: 75%;
+    }
+    
+    .delevery-tracking-details>p {
+        padding-left: 1.5rem;
+       
+    }
+    
+    .delevery-tracking-details>p+p {
+        padding-left: 1.5rem;
+       
+    }
+    
+    #shop-by-category {
+        text-align: center;
+    }
+
+    .carousel {
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 0.9rem;
+        height: 400px;
+        background-image: linear-gradient(to bottom right, rgb(0, 255, 174), rgb(115, 159, 212));
+        /* border: 1px solid yellow; */
+        /* display: none; */
+    }
+    .heading{
+        display: none;
+    }
+    .container{
+        display: none;
+    }
+    .logos {
+        width: 95%;
+        margin: auto;
+        text-align: center;
+        display: none;
+       
+    }
+    
+  
+    
+    .logos>img {
+        width: 50%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 50%;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    
+    }
+    .content{
+        display: none;
+    }
+    
+} 
