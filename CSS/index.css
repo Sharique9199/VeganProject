@@ -457,13 +457,13 @@ background-color: black; */
     .slider {
         height: 150px;
         width: 100%;
-        display: none;
+        /* display: none; */
     }
     #delevery-tracking {
         width: 95%;
         display: flex;
        flex-direction: column;
-       display: none;
+       /* display: none; */
         /* background-color: red; */
     }
     
@@ -507,10 +507,10 @@ background-color: black; */
         /* display: none; */
     }
     .heading{
-        display: none;
+        /* display: none; */
     }
     .container{
-        display: none;
+        /* display: none; */
     }
     .logos {
         width: 95%;
