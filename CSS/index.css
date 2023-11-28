@@ -130,7 +130,7 @@
     margin-left: 2.9rem;
 }
 
-.heading>a h3 {
+.heading>a h2 {
     color: black;
     font-size: 1.5rem;
     margin-right: 3.5rem;
@@ -455,9 +455,31 @@ background-color: black; */
 }
 @media only screen and (min-width: 320px) and (max-width: 480px){
     .slider {
-        height: 150px;
+       margin: 0;
+       /* background-color: teal;  */
+       height: 200px;
+       margin-bottom:2rem;
+       
+    }
+    
+    .slider-item {
+        width: 97%;
+        height: 200px;
+     
+    }
+    
+    .slider-item img {
+        
         width: 100%;
-        /* display: none; */
+        height: 100%;
+       
+    }
+    .backward {
+        left: 2.5rem;
+    }
+    
+    .forward {
+        right: 2.5rem;
     }
     #delevery-tracking {
         width: 95%;
@@ -508,6 +530,18 @@ background-color: black; */
     }
     .heading{
         /* display: none; */
+       
+        justify-content:space-around;
+       
+    }
+    .heading>h2 {
+        font-size: 1.5rem;
+        
+    }
+    
+    .heading>a h2 {
+        font-size: 1.5rem;
+        
     }
     .container{
         /* display: none; */
@@ -516,7 +550,7 @@ background-color: black; */
         width: 95%;
         margin: auto;
         text-align: center;
-        display: none;
+        /* display: none; */
        
     }
     
@@ -530,8 +564,36 @@ background-color: black; */
         box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     
     }
-    .content{
-        display: none;
-    }
+    
+        .content {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            padding: 2rem;
+        }
+        
+        .content>div {
+            width: 100%;
+           
+        }
+        
+        .content>div img {
+            width: 100%;
+            padding: 0.5rem;
+        
+        
+        }
+        
+        .content>div h1,.content>div h1+p {
+            padding:0 0 0 0.9rem;
+            text-align: center;
+        }
+        
+        .content>div a {
+            text-decoration: none;
+        }
+        
     
 } 
