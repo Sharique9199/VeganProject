@@ -141,3 +141,136 @@ hr{
     cursor: pointer;
   
 }
+/* media query css start */
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .cart-items {
+        width: 90%;
+        margin: auto;
+        margin-top: 1.2rem;
+        display: flex;
+        /* border: 1px soid red; */
+        background-color: rgb(254, 254, 254);
+       
+    }
+    .imgCont{
+        width: 25%;
+        display: flex;
+        /* border: 1px solid red; */
+       
+    }
+    .cart-img-items {
+       
+        width: 100%;
+       
+    }
+    
+    .cart-img-items>img {
+        width: 100%;
+        margin-top: 2rem;
+    
+    }
+    .detailsCont{
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+        /* background-color: red; */
+       
+    }
+    .cart-details {
+        width: 100%;
+        /* padding: 0.8rem; */
+    }
+    
+    .cart-details h2 {
+        font-size: 1.2rem;
+    }
+    
+    .cart-details>h2+button {
+        margin-top: 0.2rem;
+        font-size: 1rem;
+        padding: 0.5rem 0.2rem 0 0.2rem;
+        /* background-color: red; */
+        
+      
+    }
+    
+   
+    
+    .cart-quantity {
+        width: 80%;
+       margin-left:0.8rem;
+       margin-top: -2rem;
+       display: flex;
+      
+        
+    }
+    
+    .cart-quantity>.IncAndDecBtn {
+        width: 100%;
+        border: 1px solid grey;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.1rem;
+     
+       
+    }
+   
+    #remove {
+        padding-top: 2.5rem;
+        cursor: pointer;
+        font-size: 1.2rem;
+    
+    }
+    
+    
+    
+    .cart-price>h3 {
+        /* text-align: center; */
+        margin: 0.5rem 0 0 1rem;
+        font-weight: bold;
+        color: #0b7ed6;
+
+    }
+    .cart-heading{
+       
+        display: none;
+    
+    }
+   
+    .cart-calculation{
+        width: 90%;
+        margin: auto;
+        margin-top: 0.5rem;
+        display: flex;
+      
+    }
+    .cart-calculation>div{
+        width: 50%;
+        border: 1px soldi red;
+
+        /* background-color: red; */
+      
+    }
+     .cart-calculation>div img{
+        width: 100%;
+        /* background-color: red; */
+    }
+    .cart-calculation>div:last-child>h3{
+        text-align: end;
+        padding:0.5rem 0.8rem 0 0;
+    }
+     .cart-calculation>div:last-child>h3+p{
+        text-align: center;
+        padding:0 0 0 0;
+    }
+    #checkout{
+        display: inline-block;
+        margin: 0.5rem 1.7rem 0.5rem 0;
+        padding: 0.5rem;
+        width: 70%;
+       
+      
+    } 
+
+}

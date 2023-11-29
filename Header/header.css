@@ -1,8 +1,8 @@
-    /* * {
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-    } */
+    }
 
 /* html{
     font-size: 100%;
@@ -53,13 +53,7 @@
     top: 0;
 }
 
-/* .header_sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: red;
-    
-} */
+
 
 #logo_img {
     width: 15%;
@@ -168,8 +162,142 @@ input[type=text]:not(.browser-default) {
     font-weight: bold;
     
 }
+
+/* Responsiveness CSS Strt........................................ */
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-    .haeder-container {
+    .margue-part {
+        width: 100%;
+        display: flex;
+        background-color: rgb(54, 158, 69);
+        color: hsl(0, 0%, 100%);
+        padding: 1.2rem;
+    
+    }
+    
+    .margue-part>div:nth-child(1) {
+        width: 18%;
         display: none;
+        justify-content: center;
+        margin-top: -0.5rem;
+    }
+    
+    .margue-part>div:nth-child(1)>p {
+        padding-left: 0.2rem;
+    }
+    
+    .margue-part>div:nth-child(2) {
+        width: 100%;
+        margin-top: -0.5rem;
+        font-weight: bold;
+    }
+    
+    .margue-part>div:nth-child(3) {
+        width: 30%;
+        margin: 0 auto;
+        margin-top: -0.5rem;
+        display: none;
+    }
+
+    #header-part {
+        width: 100%;
+    
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0.9rem 0;
+        border-bottom: 3px solid green;
+        display: none;
+      
+    }
+    
+    
+    
+    #logo_img {
+        display: inline;
+        width: 25%;
+        order: 1;
+        margin-left: 2rem;
+    }
+    
+    #logo_img a>img {
+        width: 70%;
+        float: left;
+    }
+    
+    #header-category {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem 0;
+       
+    }
+    
+    #header-category>a {
+       
+        padding-left: 0;
+    }
+    
+    #header-category>a p {
+        font-weight: 500;
+        font-size: 1.4rem;
+        color: rgb(69, 71, 69);
+        border-top:1px solid grey ;
+        padding:0.4rem 0 0 0.5rem;
+    }
+    
+  
+    
+    #search-bar {
+        width: 100%;
+        display: flex;
+        position: relative;
+       
+    
+    }
+    
+   
+    
+    #search-bar>input {
+    
+        
+        padding: 1.5rem;
+        /* border-radius: 20px 20px 20px 20px; */
+    
+    }
+    
+ 
+    
+    #search-bar>.fa-magnifying-glass {
+      
+        padding: 1.0rem;
+    
+    
+    }
+  
+    
+    #header-singup-cart {
+        width: 20%;
+        position: relative;
+        top: 0%;
+        left: 80%;
+        display:flex;
+        margin: -2.8rem 0 0 0;
+        font-size: 1.5rem;
+      
+    
+    }
+    #header-singup-cart > i{
+        font-size: 2rem;
+        padding: 0.5rem;
+    }
+    
+    #cart_count {
+        position: absolute;
+       top: -20%;
+        left: 69%;
+        color: rgb(255, 0, 0);
+        font-size:1.5rem;
+        font-weight: bold;
+       
     }
 }

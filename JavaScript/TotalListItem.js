@@ -13,17 +13,20 @@ function appendPaymentData(data) {
         let div = document.createElement('div');
         div.className = 'cart-items';
         let child =
-            `
+           `<div class="imgCont"> 
     <div class="cart-img-items">
     <img src=${el.img} alt="">
 </div>
+</div>
+<div class=" detailsCont">
 <div class="cart-details">
     <h2>${el.name}</h2>
     
     <button class="item_price">${el.price}</button>
 </div>
+
 <div class="cart-quantity">
-    <div>
+    <div class="IncAndDecBtn">
         <h2 class="dec">-</h2>
         <h2 class="item-count">${el.itemCount}</h2>
         <h2 class="inc">+</h2>
@@ -32,6 +35,7 @@ function appendPaymentData(data) {
 </div>
 <div class="cart-price">
     <h3 class="price">${el.itemCount * el.price}</h3>
+</div>
 </div>
     `
         div.innerHTML = child;

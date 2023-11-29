@@ -106,3 +106,11 @@
     color: #fff;
     cursor: pointer;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .popupContainer {
+        width: 95%;
+       
+    }
+
+}
