@@ -52,7 +52,7 @@ function recursive() {
     for (let i = 0; i < removeBtn.length; i++) {
         removeBtn[i].addEventListener('click', function () {
             removeCardFromLocalStorage(i);
-            removeBtn[i].parentElement.parentElement.remove();
+            removeBtn[i].parentElement.parentElement.parentElement.remove();
 
         })
     }
