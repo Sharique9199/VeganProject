@@ -44,7 +44,7 @@ export function footer(){
 <div >
     <h4>NEWSLETTER</h4>
     <p>Join Our Good News Mailling List</p>
-    <form action="">
+    <form action="" id="form-field">
         <input type="text" placeholder="Enter your email address">
         <button>SUBSCRIBE</button>
     </form>

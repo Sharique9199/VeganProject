@@ -7,6 +7,7 @@
     margin-top: 5rem;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .shop-btn button{
@@ -29,8 +30,13 @@
     width: 95%;
     margin: auto;
     /* height: 100vh; */
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1.5rem;
+    
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr); */
     gap:2rem;
 }
 .category-img-cart{
@@ -38,6 +44,7 @@
     border-radius: 20px;
     transition: all 0.5s ease-in;
     cursor: pointer;
+    padding: 0.8rem;
 }
 .category-img-cart:hover{
     transition: all 0.5s ease-out;
@@ -55,7 +62,7 @@
     /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
 .category-img-cart> a img+p{
-    padding-bottom: 0.5rem;
+   padding: 0 2rem;
     text-align: center;
     font-size: 1.2rem;
     font-weight: 600;

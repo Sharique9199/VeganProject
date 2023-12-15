@@ -1,0 +1,213 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#imgBox{
+    width: 30%;
+    margin: auto;
+ 
+}
+#imgBox img{
+    width: 100%;
+   
+
+}
+#checkOut {
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: aqua; */
+    display: flex;
+    margin-bottom: -2rem;
+}
+
+#checkOut>div:first-child {
+    width: 55%;
+    /* height: 100vh; */
+    background-color: #fff;
+}
+
+#checkOut>div:last-child {
+    width: 45%;
+    /* height: 150vh; */
+    background-color: rgb(253, 177, 190);
+}
+
+#checkOut>div:first-child:first-child img {
+    width: 90%;
+    display: block;
+    /* margin-left: 5rem; */
+    margin: auto 0;
+    padding: 2.5rem;
+}
+
+
+#form-container {
+
+    width: 78%;
+    margin: auto;
+    margin-top: -1.2rem;
+}
+
+.contact_info {
+    padding: 0.4rem 0;
+}
+
+.input-large-div p {
+    font-size: 1.1rem;
+    padding-top: 1.2rem;
+}
+
+.input-large-div input,
+.input-large-div select {
+    display: block;
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: -0.5rem;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    outline-style: 1px solid grey;
+}
+
+.name-div-section {
+    margin-top: 0.8rem;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.name-div-section>div {
+    width: 50%;
+}
+
+.sub-state-post {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.sub-state-post>div {
+    width: 33%;
+    
+}
+input[type=text]{
+    padding: 1.1rem;
+}
+#suburb{
+    padding: 1.1rem 0;
+}
+
+#continue {
+    display: block;
+    float: right;
+    margin-top: 1.2rem;
+    padding: 0.6rem;
+    width: 35%;
+    background-color: rgb(140, 208, 227);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 0.5rem;
+}
+
+.table_data {
+    height: 65vh;
+    width: 85%;
+    overflow-y: scroll;
+   
+   
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    /* background-color: red; */
+
+}
+
+.scroll_data {
+    /* height: 50vh; */
+    width: 95%;
+    /* margin: 1rem auto; */
+    padding: 1.5rem;
+    position: relative;
+   
+    
+
+
+
+}
+
+.scroll_img_cart {
+    /* height: 10vh; */
+    width: 25%;
+    padding: 0.9rem;
+}
+
+.scroll_img_cart img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 0.5rem;
+   
+
+}
+#itemCount{
+    position: absolute;
+    top: 25.5%;
+    left: 20%;
+    padding: 0.2rem;
+    border-radius:0 5px ;
+    background-color: rgb(8, 114, 180);
+    font-weight: bold;
+    color: #fff;
+}
+.scroll_details_cart {
+    width: 60%;
+   
+    
+}
+
+.scroll_details_cart>p {
+    padding-left: 0.5rem;
+    color: rgb(54, 52, 52);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.scroll_price_cart {
+    width: 15%;
+}
+
+.scroll_price_cart>P {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#up_Line,
+#down_Line {
+    width: 85%;
+    margin: auto;
+    margin-top: 1.3rem;
+}
+
+.calculate_items {
+    width: 70%;
+    margin: 0.5rem auto 1.2rem auto;
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(48, 47, 47);
+}
+
+#total {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+ 

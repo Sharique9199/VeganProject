@@ -81,7 +81,7 @@ async function fetchData() {
         cardBtn.addEventListener('click', function () {
             ShowToPopUpCart(this);
             totalItem1Card(this);
-        
+
         })
     }
 
@@ -91,13 +91,14 @@ async function fetchData() {
 
 
 function ShowToPopUpCart(card) {
+
     // console.log("Sharique",card.previousElementSibling.previousElementSibling.lastElementChild.previousElementSibling.innerText);
     let CartItemObj = {
         img: card.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.src,
         name: card.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.innerHTML,
         itemCount: card.previousElementSibling.value,
         price: card.previousElementSibling.previousElementSibling.lastElementChild.previousElementSibling.innerText,
-        
+
 
     }
     // console.log(card.previousElementSibling.previousElementSibling.lastElementChild.previousElementSibling.innerText);
@@ -117,29 +118,89 @@ function ShowToPopUpCart(card) {
         console.log(66666);
         document.querySelector('#popup').innerHTML = popUp();
         document.querySelector('#popup-wraper').style.display = "none";
-        
+
     })
-    document.getElementById('addToBag').addEventListener('click',()=>{
-        window.location.href='../Cart/TotalListItem.html'
+    document.getElementById('addToBag').addEventListener('click', () => {
+        window.location.href = '../Cart/TotalListItem.html'
+    })
+
+
+    document.getElementById('continue_btn').addEventListener('click',()=>{
+        document.querySelector('#popup').innerHTML = popUp();
+        document.querySelector('#popup-wraper').style.display = "none";
     })
 }
 
+
+
+
+//store data in local Storage
+
 let totoalItemArr = JSON.parse(localStorage.getItem('addtoCartData')) || [];
+console.log("11111111111111", totoalItemArr);
+
+
 function totalItem1Card(data) {
+
+    console.log("totoalItemArr", totoalItemArr);
 
     let totalItemObj = {
         img: data.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.src,
         name: data.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.innerHTML,
         itemCount: data.previousElementSibling.value,
-        price: data.previousElementSibling.previousElementSibling.lastElementChild.previousElementSibling.innerText,
-       
+        price: data.previousElementSibling.previousElementSibling.lastElementChild.previousElementSibling.innerText
 
     }
-    
-    totoalItemArr.push(totalItemObj);
-    localStorage.setItem("addtoCartData", JSON.stringify(totoalItemArr));
-    header();
-    document.getElementById('header').innerHTML = header();
+    // totoalItemArr.push(totalItemObj);
+    // localStorage.setItem("addtoCartData", JSON.stringify(totoalItemArr));
+    // header();
+    // document.getElementById('header').innerHTML = header();
+
+
+
+    let duplicateData = totoalItemArr.find((elem) => {
+        return elem.name == totalItemObj.name;
+
+
+
+    })
+    console.log("duplicateData", duplicateData);
+
+    if (!duplicateData) {
+        totoalItemArr.push(totalItemObj);
+        localStorage.setItem("addtoCartData", JSON.stringify(totoalItemArr));
+        header();
+        document.getElementById('header').innerHTML = header();
+    }
+    else{
+        window.confirm("sometext");
+    }
+
+
+
+    //    if(!duplicateData){
+    //     totoalItemArr.push(totalItemObj);
+    //     localStorage.setItem("addtoCartData", JSON.stringify(totoalItemArr));
+    //     header();
+    //     document.getElementById('header').innerHTML = header();
+
+    //    }
+    //    else{
+    //     alert("Hellooooooo")
+    //    }
+
+
+
+
+
+    // totoalItemArr.push(totalItemObj);
+    // localStorage.setItem("addtoCartData", JSON.stringify(totoalItemArr));
+    // header();
+    // document.getElementById('header').innerHTML = header();
+
+
+
+
 
 }
 

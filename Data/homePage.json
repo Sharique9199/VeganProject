@@ -13,7 +13,7 @@
             },
             {
                 "id": 2,
-                "img": "https://veganessentials.com/cdn/shop/products/Blaz_NBaconbyGood2GoVeggie_5.5oz_200x200.jpg?v=1669987484",
+                "img": "https://veganessentials.com/cdn/shop/files/image0_350x350.jpg?v=1700155038",
                 "desc": "Blaz'N Bacon by Good2Go Veggie, 5.5oz",
                 "review": 7,
                 "price": 11.49,
@@ -23,7 +23,7 @@
             },
             {
                 "id": 3,
-                "img": "https://veganessentials.com/cdn/shop/products/major-english-toffee-bar-by-go-max-go-foods-box-of-12-vegan-essentials-online-store_200x200.jpg?v=1666993957",
+                "img": "https://veganessentials.com/cdn/shop/products/buccaneer-candy-bar-by-go-max-go-vegan-essentials-online-store_200x200.jpg?v=1666990353",
                 "desc": "Major English Toffee Bar by Go Max Go Foods - Box of 12",
                 "review": 2,
                 "price": 29.95,
@@ -33,10 +33,10 @@
             },
             {
                 "id": 4,
-                "img": "https://veganessentials.com/cdn/shop/products/cleo-s-peanut-butter-cups-by-go-max-go-foods-box-of-12-vegan-essentials-online-store_200x200.jpg?v=1666991028",
+                "img": "https://veganessentials.com/cdn/shop/products/white-cleo-s-peanut-butter-cups-by-go-max-go-foods-vegan-essentials-online-store_350x350.jpg?v=1666997755",
                 "desc": "Cleo's Peanut Butter Cups by Go Max Go Foods - box of 12",
                 "review": 3,
-                "price": 29.95,
+                "price": 9.95,
                 "discountPer": "11",
                 "discountRupee": "33.48",
                 "inStock": false

@@ -145,6 +145,10 @@ function totalCalulation(){
 totalCalulation()
 
 
+document.getElementById('checkout').addEventListener('click',()=>{
+    window.location.href='../Cart/Checkout.html'
+})
+
 
 
 
