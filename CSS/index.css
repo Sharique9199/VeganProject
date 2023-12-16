@@ -148,8 +148,8 @@
     display: flex;
     flex-wrap: wrap ;
     justify-content: center;
-   margin-top: 3rem;
-    gap: 15px;
+   margin-top: 4rem;
+    gap: 20px;
 
 
 }
@@ -166,12 +166,14 @@
     border: 1px solid rgb(241, 230, 230);
     /* background-color: red; */
     /* border: 2px solid black; */
-
+    height: 370px;
+margin-bottom: 2rem;
 
 }
 .main_content>img{
     width: 100%;
     padding: 0.5rem;
+    height: 50%;
     /* margin-top: 1.5rem; */
 }
 .discount{

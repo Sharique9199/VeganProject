@@ -1,4 +1,5 @@
 import {popUp} from '../Cart/PopUp.js'
+import { header } from '../Header/header.js';
 // console.log("popUp",popUp);
 
 
@@ -38,7 +39,7 @@ function appendData(data){
                 
                 </div>
                 `}
-                <p>${elem.discountRupee && `<del>${elem.discountRupee}</del>`} <span class="price-show">$${elem.price}</span>  ${elem.inStock ? `<span class="in-stock">in stock</span>` :`<span class="sold-out">sold Out</span>`}</p>
+                <p>${elem.discountRupee && `<del>${elem.discountRupee}</del>`} <span class="price-show">${elem.price}</span>  ${elem.inStock ? `<span class="in-stock">in stock</span>` :`<span class="sold-out">sold Out</span>`}</p>
                 
                 ${elem.inStock ? `<select class="chosen-option">
                 <option value="1">1</option>
@@ -72,12 +73,30 @@ function AddItemsToPopUp(data){
     // console.log(AddItem  
     localStorage.setItem("PopUpData",JSON.stringify(CartItemObj))
 
-    //totalItem Store in localStorage
-    AddItemToArr.push(CartItemObj)
-    localStorage.setItem('addtoCartData',JSON.stringify(AddItemToArr));
 
+
+      //totalItem Store in localStorage
+    let duplicateData=AddItemToArr.find((ele)=>{
+        return ele.name==CartItemObj.name;
+    })
+
+    if(!duplicateData){
+        AddItemToArr.push(CartItemObj)
+        localStorage.setItem('addtoCartData',JSON.stringify(AddItemToArr));
+        document.getElementById('header').innerHTML = header();
+    }
+    else{
+        alert("Item's is already added to cart !!!!!!!")
+    }
+  
+   
+
+
+
+   
     document.getElementById("popup").innerHTML=popUp();
     document.querySelector('#popup-wraper').style.display="block"
+
    let cutIcon= document.querySelector('.crossIcon');
    cutIcon.addEventListener('click',()=>{
     document.getElementById("popup").innerHTML=popUp();

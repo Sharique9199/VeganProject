@@ -56,7 +56,7 @@ function appendData(data) {
       
       
      `} </div>
-        <p>${elem.discountRupee && `<del>$${elem.discountRupee}</del>`} <span class="price-show">$${elem.price}</span>  ${elem.stock ? `<span class="in-stock">in stock</span>` : `<span class="sold-out">Sold Out</span>`}</p>
+        <p>${elem.discountRupee && `<del>${elem.discountRupee}</del>`} <span class="price-show">${elem.price}</span>  ${elem.stock ? `<span class="in-stock">in stock</span>` : `<span class="sold-out">Sold Out</span>`}</p>
         
       ${elem.stock ? availableItem : `<button id="product-not-present">Notify Me When Available</button>`}
         
