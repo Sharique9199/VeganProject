@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegan Chocolate & Candy Bars</title>
+  
+    <link rel="stylesheet" href="../Footer/footer.css">
+    <link rel="stylesheet" href="../Header/header.css">
+    <link rel="stylesheet" href="../CSS/chocolate.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/PopUp.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/1a0a802c64.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <div id="header"></div>
+    <div id="humburg">
+        <ul class=" breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li> <a href="#">Vegan Chocolate, Candy & Sweets</a></li>
+            <li>Vegan Chocolate & Candy Bars</li>
+        </ul>
+        <h1>Vegan Chocolate & Candy Bars</h1>
+    </div>
+    <div id="chocoPagging">
+        <div>
+            <p>Total Product</p>
+        </div>
+       <div class="pagination">
+        <a href="#">&laquo;</a>
+  <a href="#" class="active">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+    </div>
+        
+        <div id="selectItem">
+            <p>Sort By:</p>
+            <select  id="optionItem">
+                <option value="featured">Featured</option>
+                <option value="best selling">Best Selling</option>
+                <option value="alphabetically A-Z">Alphabetically A-Z</option>
+                <option value="alphabetically Z-A">Alphabetically Z-A</option>
+                <option value="price,low to high">Price, Low to High</option>
+                <option value="price, high to low">Price, High to Low</option>
+                <option value="data,old to new">Data, Old to New</option>
+                <option value="data,new to old">Data, New to Old</option>
+            </select>
+        </div>
+    </div>
+   
+    <!-- copy cotent -->
+    <div class="CardContainer" id="img-cart-container-1">
+        <!-- <div class="main_content">
+            <p class="discount">%</p>
+            <img src="https://veganessentials.com/cdn/shop/products/major-english-toffee-bar-by-go-max-go-foods-box-of-12-vegan-essentials-online-store_200x200.jpg?v=1666993957" alt="" srcset="">
+            <p class="desc">Thumps Up! Crispy Peanut Butter Candy Bar</p>
+            <div class="review">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <b>1 review</b> 
+            
+            </div>
+            <p><span class="price-show">$29.95</span>  <span class="in-stock">in stock</span></p>
+            
+            <select class="chosen-option">
+                <option value="1">1</option>
+                <option value="1">2</option>
+                <option value="1">3</option>
+                <option value="1">4</option>
+                <option value="1">5</option>
+                <option value="1">6</option>
+                <option value="1">7</option>
+                <option value="1">8</option>
+                <option value="1">9</option>
+                <option value="1">10</option>
+            </select>
+            <button id="add-to-cart">Add To Card</button>
+            </div> -->
+
+
+            <!-- <div class="main_content">
+                <p class="discount">%</p>
+                <img src="https://veganessentials.com/cdn/shop/products/major-english-toffee-bar-by-go-max-go-foods-box-of-12-vegan-essentials-online-store_200x200.jpg?v=1666993957" alt="" srcset="">
+                <p class="desc">Thumps Up! Crispy Peanut Butter Candy Bar</p>
+                <div class="review">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <b>1 review</b> 
+                
+                </div>
+                <p><span class="price-show">$29.95</span>  <span class="in-stock">in stock</span></p>
+                
+                <select class="chosen-option">
+                    <option value="1">1</option>
+                    <option value="1">2</option>
+                    <option value="1">3</option>
+                    <option value="1">4</option>
+                    <option value="1">5</option>
+                    <option value="1">6</option>
+                    <option value="1">7</option>
+                    <option value="1">8</option>
+                    <option value="1">9</option>
+                    <option value="1">10</option>
+                </select>
+                <button id="add-to-cart">Add To Card</button>
+                </div> -->
+
+
+
+
+    </div>
+    <div id="footer"></div>
+    <div id="popup"></div>
+</main>
+<script src="../JavaScript/chocolate.js" type="module"></script>
+</body>
+</html>
+<script type="module">
+    import {header} from "../Header/header.js";
+    document.getElementById("header").innerHTML=header();
+    import {footer} from "../Footer/footer.js";
+    document.getElementById("footer").innerHTML=footer();
+
+    
+</script>

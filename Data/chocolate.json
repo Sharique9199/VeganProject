@@ -1,0 +1,257 @@
+{
+    "data":[
+        {
+            "id":1,
+            "img":"https://veganessentials.com/cdn/shop/products/jokerz-candy-bar-by-go-max-go-vegan-essentials-online-store_250x250.jpg?v=1666993510",
+            "name":"Jokerz Candy Bar by Go Max Go",
+            "review":35,
+            "price":2.99,
+            "stock":false,
+            "discountPer":"8",
+            "discountRupee":"25.99"
+
+        },
+        {
+            "id":2,
+            "img":"https://veganessentials.com/cdn/shop/products/2fer-candy-bar-by-go-max-go-foods-vegan-essentials-online-store_250x250.jpg?v=1666989193",
+            "name":"2fer Candy Bar by Go Max Go Foods",
+            "review":15,
+            "price":2.99,
+            "stock":false,
+            "discountPer":"",
+            "discountRupee":""
+
+        },
+        {
+            "id":3,
+            "img":"https://veganessentials.com/cdn/shop/products/GoMaxGo-ThumbsUpBar_1.3oz_250x250.jpg?v=1669917511",
+            "name":"Go Max Go - Thumbs Up Bar, 1.3oz",
+            "review":22,
+            "price":2.99,
+            "stock":true,
+            "discountPer":"",
+            "discountRupee":"23"
+
+        },
+        {
+            "id":4,
+            "img":"https://veganessentials.com/cdn/shop/products/major-english-toffee-bar-by-go-max-go-foods-vegan-essentials-online-store_250x250.jpg?v=1666993953",
+            "name":"Major English Toffee Bar by Go Max Go Foods",
+            "review":4,
+            "price":2.99,
+            "stock":true,
+            "discountPer":"",
+            "discountRupee":""
+
+        },
+        {
+            "id":5,
+            "img":"https://veganessentials.com/cdn/shop/products/twilight-candy-bar-by-go-max-go-vegan-essentials-online-store_250x250.jpg?v=1666996882",
+            "name":"Twilight Candy Bar by Go Max Go",
+            "review":16,
+            "price":2.99,
+            "stock":true,
+            "discountPer":"",
+            "discountRupee":""
+
+        },
+        {
+            "id":6,
+            "img":"https://veganessentials.com/cdn/shop/products/buccaneer-candy-bar-by-go-max-go-vegan-essentials-online-store_250x250.jpg?v=1666990353",
+            "name":"Buccaneer Candy Bar by Go Max Go",
+            "review":20,
+            "price":2.99,
+            "stock":true,
+            "discountPer":"",
+            "discountRupee":""
+
+        },
+        {
+            "id":7,
+            "img":"https://veganessentials.com/cdn/shop/products/mahalo-candy-bar-by-go-max-go-vegan-essentials-online-store_250x250.jpg?v=1666993950",
+            "name":"Mahalo Candy Bar by Go Max Go",
+            "review":21,
+            "price":2.99,
+            "stock":false,
+            "discountPer":"",
+            "discountRupee":""
+
+        },
+        {
+            "id":8,
+            "img":"https://veganessentials.com/cdn/shop/products/snap-crispy-rice-milk-chocolate-bar-by-go-max-go-foods-vegan-essentials-online-store_250x250.jpg?v=1666996175",
+            "name":"Snap! Crispy Rice Milk Chocolate Bar by Go Max Go Foods",
+            "review":14,
+            "price":2.99,
+            "stock":true,
+            "discountPer":"",
+            "discountRupee":""
+
+        },
+        {
+            "id":9,
+            "img":"https://veganessentials.com/cdn/shop/products/cleo-s-peanut-butter-cups-by-go-max-go-foods-vegan-essentials-online-store_250x250.jpg?v=1666991029",
+            "name":"Cleo's Peanut Butter Cups by Go Max Go Foods",
+            "review":26,
+            "price":2.79,
+            "stock":true,
+            "discountPer":"",
+            "discountRupee":""
+
+        },
+        {
+            "id":10,
+            "img":"https://veganessentials.com/cdn/shop/products/jokerz-candy-bar-by-go-max-go-foods-box-of-12-bars-vegan-essentials-online-store_250x250.jpg?v=1666993510",
+            "name":"Jokerz Candy Bar by Go Max Go Foods - Box of 12 bars",
+            "review":1,
+            "price":29.95,
+            "stock":false,
+            "discountPer":"",
+            "discountRupee":""
+
+        },
+        {
+            "id":11,
+            "img":"https://veganessentials.com/cdn/shop/products/80a5f01f05db0f3c7080f2d1b592e69301f73fd5a248549f6bc91096aa2bf1dc_250x250.webp?v=1672419083",
+            "name":"Organic Cupid's Kisses White Chocolate Almond Butter Truff...",
+            "review":1,
+            "price":16.99,
+            "stock":true,
+            "discountPer":"",
+            "discountRupee":""
+
+        },
+        {
+            "id":12,
+            "img":"https://veganessentials.com/cdn/shop/products/twilight-vegan-candy-bar-by-go-max-go-foods-box-of-12-bars-vegan-essentials-online-store_250x250.jpg?v=1666996882",
+            "name":"Twilight Vegan Candy Bar by Go Max Go Foods - Box of 12 bars",
+            "review":"",
+            "price":29.95,
+            "stock":false,
+            "discountPer":"",
+            "discountRupee":""
+
+        },
+        {
+            "id":13,
+            "img":"https://veganessentials.com/cdn/shop/products/thumbs-up-crispy-peanut-butter-candy-bar-by-go-max-go-foods-box-of-12-bars-vegan-essentials-online-store_250x250.jpg?v=1666996741",
+            "name":"Thumbs Up! Crispy Peanut Butter Candy Bar by Go Max Go Foods -...",
+            "review":1,
+            "price":29.95,
+            "stock":true,
+            "discountPer":"",
+            "discountRupee":""
+
+        },
+        {
+            "id":14,
+            "img":"https://veganessentials.com/cdn/shop/products/2fer-vegan-candy-bar-by-go-max-go-foods-box-of-12-vegan-essentials-online-store_250x250.jpg?v=1666989193",
+            "name":"2fer Vegan Candy Bar by Go Max Go Foods - Box of 12",
+            "review":3,
+            "price":29.95,
+            "stock":false,
+            "discountPer":"",
+            "discountRupee":""
+
+        },
+        {
+            "id":15,
+            "img":"https://veganessentials.com/cdn/shop/products/major-english-toffee-bar-by-go-max-go-foods-box-of-12-vegan-essentials-online-store_250x250.jpg?v=1666993957",
+        
+            "name":"Major English Toffee Bar by Go Max Go Foods - Box of 12",
+            "review":2,
+            "price":29.95,
+            "stock":false,
+            "discountPer":"",
+            "discountRupee":""
+
+        },
+        {
+            "id":16,
+            "img":"https://veganessentials.com/cdn/shop/products/buccaneer-candy-bar-by-go-max-go-foods-box-of-12-vegan-essentials-online-store_250x250.jpg?v=1666990354",
+            "name":"Buccaneer Candy Bar by Go Max Go Foods - box of 12",
+            "review":"",
+            "price":29.95,
+            "stock":false,
+            "discountPer":"",
+            "discountRupee":""
+
+        },
+        {
+            "id":17,
+            "img":"https://veganessentials.com/cdn/shop/products/cleo-s-peanut-butter-cups-by-go-max-go-foods-box-of-12-vegan-essentials-online-store_250x250.jpg?v=1666991028",
+            "name":"Cleo's Peanut Butter Cups by Go Max Go Foods - box of 12",
+            "review":3,
+            "price":29.95,
+            "stock":true,
+            "discountPer":"",
+            "discountRupee":""
+
+        },
+        {
+            "id":18,
+            "img":"https://veganessentials.com/cdn/shop/products/mahalo-vegan-candy-bar-by-go-max-go-foods-box-of-12-bars-vegan-essentials-online-store_250x250.jpg?v=1666993952",
+            "name":"Mahalo Vegan Candy Bar by Go Max Go Foods - Box of 12 bars",
+            "review":2,
+            "price":29.95,
+            "stock":false,
+            "discountPer":"",
+            "discountRupee":""
+
+        },
+        {
+            "id":19,
+            "img":"https://veganessentials.com/cdn/shop/products/organic-almond-butter-sweetheart-by-sjaak-s-vegan-essentials-online-store_250x250.jpg?v=1666994674",
+            "name":"Organic Almond Butter Sweetheart by Sjaak's",
+            "review":"",
+            "price":7.99,
+            "stock":false,
+            "discountPer":"",
+            "discountRupee":""
+
+        },
+        {
+            "id":20,
+            "img":"https://veganessentials.com/cdn/shop/products/gigantic-candy-bars-banana-pecan-vegan-essentials-online-store_250x250.jpg?v=1666992773",
+            "name":"Gigantic Candy Bars - Banana Pecan",
+            "review":"",
+            "price":2.99,
+            "stock":false,
+            "discountPer":"",
+            "discountRupee":""
+
+        },
+        {
+            "id":21,
+            "img":"https://veganessentials.com/cdn/shop/products/snap-crispy-rice-milk-chocolate-bar-by-go-max-go-foods-box-of-12-bars-vegan-essentials-online-store_250x250.jpg?v=1666996175",
+            "name":"Snap! Crispy Rice Milk Chocolate Bar by Go Max Go",
+            "review":"",
+            "price":29.95,
+            "stock":true,
+            "discountPer":"",
+            "discountRupee":""
+
+        },
+        {
+            "id":22,
+            "img":"https://veganessentials.com/cdn/shop/products/0ed60c312c117a6464505a9f9ada9c8511bc8afab93210e9c44bd4a1a19c63ff_250x250.webp?v=1672421919",
+            "name":"Sjaak's Organic Melk Caramel-Filled Chocolate Bar",
+            "review":"",
+            "price":3.99,
+            "stock":false,
+            "discountPer":"",
+            "discountRupee":""
+
+        },
+        {
+            "id":23,
+            "img":"https://veganessentials.com/cdn/shop/products/no-whey-caramel-and-nougat-candy-bar-by-no-whey-foods-vegan-essentials-online-store_250x250.jpg?v=1666994480",
+            "name":"No Whey! Caramel & Nougat Candy Bar by No Whey! Foods",
+            "review":"",
+            "price":2.49,
+            "stock":false,
+            "discountPer":"",
+            "discountRupee":""
+        }
+    ]
+}

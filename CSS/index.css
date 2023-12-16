@@ -7,7 +7,7 @@
 }
 .mainContainer{
     width: 100%;
-    background-color: rgb(209, 204, 204);
+   
 }
 
 /* slider css start.......................... */
@@ -148,7 +148,7 @@
     display: flex;
     flex-wrap: wrap ;
     justify-content: center;
-   
+   margin-top: 3rem;
     gap: 15px;
 
 

@@ -1,0 +1,79 @@
+
+#humburg {
+    background-color:rgb(190, 235, 220) ;
+   
+}
+#humburg> h1{
+text-align: center;
+padding: 1.5rem;
+}
+.breadcrumb{
+    /* background-color: rgb(220, 132, 132); */
+   letter-spacing: 1px;
+   display: flex;
+   padding: 1rem;
+}
+
+ul.breadcrumb {
+    list-style: none;
+  }
+  
+ 
+  ul.breadcrumb li+li:before {
+    
+    color: rgba(16, 15, 15, 0.859);
+    content: "/\00a0";
+  }
+  
+  ul.breadcrumb li a {
+    color:rgb(13, 113, 44) ;
+  }
+  
+#chocoPagging{
+    display: flex;
+    justify-content: space-evenly;
+    font-family:'Times New Roman', serif;
+    font-weight: 400;
+    font-size: large;
+    padding: 1.5rem;
+    background-color: rgb(190, 235, 220);
+}
+.pagination {
+    display: flex;
+  }
+  
+  .pagination a {
+    color: black;
+    /* float: left; */
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: background-color .3s;
+    /* border: 1px solid #ddd;
+    margin: 0 4px; */
+  }
+  
+  .pagination a.active {
+    background-color: #217fab;
+    color: rgb(241, 40, 40);
+  
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #eadddd;
+}
+#selectItem{
+    display: flex;
+
+   
+    
+}
+#optionItem{
+    font-weight: 700;
+   font-size: 1rem;
+   margin-bottom: 0.6rem;
+   border: none;
+   padding: 0.5px;
+   border-radius: 0.5rem;
+   background-color: aquamarine;
+   
+}
