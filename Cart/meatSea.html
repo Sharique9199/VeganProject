@@ -1,30 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1a0a802c64.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../CSS/meatSea.css">
+    <link rel="stylesheet" href="../Header/header.css">
+    <link rel="stylesheet" href="../Footer/footer.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/PopUp.css">
     <title>Vegan Meat & Seafood</title>
 </head>
+
 <body>
+    <div id="header"></div>
     <!-- baner section start -->
-     <div id="humburg">
+    <div id="humburg">
         <ul class=" breadcrumb">
             <li><a href="#">Home</a></li>
             <li>Vegan Meat & Seafood</li>
         </ul>
     </div>
     <div id="meatfood">
-       
+
         <div>
-<h1> Vegan Meat & Seafood</h1>
-<p>Serve up a plate of just about any kind of dish using vegan meat or seafood! Sure, they’re meatless but they’re deliciously savory and great alternatives to animal-derived meats. A lot of the plant-based seafood you’ll find here has the same salty taste and flaky texture that most know and love. 🐟 The plant-based meats? As versatile and tasty as their counterparts. 🍖 <a href="#"> Read more</a></p> </div>
+            <h1> Vegan Meat & Seafood</h1>
+            <p>Serve up a plate of just about any kind of dish using vegan meat or seafood! Sure, they’re meatless but
+                they’re deliciously savory and great alternatives to animal-derived meats. A lot of the plant-based
+                seafood you’ll find here has the same salty taste and flaky texture that most know and love. 🐟 The
+                plant-based meats? As versatile and tasty as their counterparts. 🍖 <a href="#"> Read more</a></p>
+        </div>
         <div>
-<!-- <img src="https://veganessentials.com/cdn/shop/files/Vegan-Meat-_-Seafood_1000x.png?v=1676893466" alt="">
+            <!-- <img src="https://veganessentials.com/cdn/shop/files/Vegan-Meat-_-Seafood_1000x.png?v=1676893466" alt="">
        -->
-    
-</div>
+
+        </div>
     </div>
+
+    <div class="CardContainer" id="img-cart-container-1">
+
+        <!-- <div class="main_content">
+            <p class="discount">%</p>
+            <img src=>
+            <p class="desc">Thumps Up! Crispy Peanut Butter Candy Bar</p>
+            <div class="review">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <b>1 review</b> 
+            
+            </div>
+            <p><span class="price-show">$29.95</span>  <span class="in-stock">in stock</span></p>
+            
+            <select class="chosen-option">
+                <option value="1">1</option>
+                <option value="1">2</option>
+                <option value="1">3</option>
+                <option value="1">4</option>
+                <option value="1">5</option>
+                <option value="1">6</option>
+                <option value="1">7</option>
+                <option value="1">8</option>
+                <option value="1">9</option>
+                <option value="1">10</option>
+            </select>
+            <button id="add-to-cart">Add To Card</button>
+            </div> -->
+    </div>
+
+
+    <div id="footer"></div>
+    <div id="popup"></div>
+
+    <script src="../JavaScript/meatSea.js" type="module"></script>
 </body>
+
 </html>
+<script type="module">
+    import { header } from '../Header/header.js'
+    document.getElementById('header').innerHTML = header();
+
+
+    import {footer} from '../Footer/footer.js'
+    document.getElementById('footer').innerHTML=footer();
+</script>

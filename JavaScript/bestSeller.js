@@ -1,6 +1,7 @@
 
 
 import {popUp} from '../Cart/PopUp.js'
+console.log(popUp);
 import { header } from '../Header/header.js';
 
 async function fetchData() {
@@ -12,6 +13,7 @@ async function fetchData() {
     // popUp Card Data
 
     let cardData=document.querySelectorAll('.addToBag');
+
     for(let cardBtn of cardData){
         cardBtn.addEventListener('click',function(){
             addToPopAndCardHandler(this)

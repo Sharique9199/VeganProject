@@ -8,7 +8,7 @@
                 "review":3,
                 "price":12.99,
                 "stock":true,
-                "discountPer":"",
+                "discountPer":"10",
                 "discountRupee":""
 
             },
@@ -18,7 +18,7 @@
                 "name":"Gardein Classic Meatless Meatballs",
                 "review":17,
                 "price":8.09,
-                "stock":true,
+                "stock":false,
                 "discountPer":"",
                 "discountRupee":""
 
@@ -57,7 +57,7 @@
                 "price":46.69,
                 "stock":true,
                 "discountPer":"",
-                "discountRupee":""
+                "discountRupee":"15"
 
             },
             {
