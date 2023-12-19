@@ -86,12 +86,23 @@ function addToPopAndCardHandler(data){
     // console.log(cartObj);
 
 //total item add to acrd and store to local storage
-addItemToArr.push(cartObj)
-localStorage.setItem("addtoCartData",JSON.stringify(addItemToArr))
-document.querySelector('#header').innerHTML=header();
+let dupicateData=addItemToArr.find((elem)=>{
+    return cartObj.name==elem.name;
+})
+
+if(!dupicateData){
+    itemAddedToArr.push(cartObj);
+    localStorage.setItem('addtoCartData',JSON.stringify(addItemToArr));
+    document.querySelector('#header').innerHTML=header();
+
+}
+else{
+    alert("Item is already added to cart !!!!!!")
+}
 
     document.querySelector('#popup').innerHTML=popUp();
     document.querySelector("#popup-wraper").style.display="block"
+
     let crossIcon=document.querySelector('.crossIcon');
     crossIcon.addEventListener('click',function(){
         document.querySelector('#popup').innerHTML=popUp();

@@ -1,4 +1,6 @@
 import { popUp } from "../Cart/PopUp.js";
+import { header } from "../Header/header.js";
+// console.log(popUp);
 // document.getElementById('popup').innerHTML=popUp();
 
 async function fetchData(){
@@ -9,10 +11,11 @@ async function fetchData(){
     }
 
     const carBtn=document.querySelectorAll('.addToBag');
-    // console.log(carBtn);
+    // console.log("222222222222222",carBtn);
     for (const btn of carBtn) {
         btn.addEventListener('click',function(){
             popUpAndAddToCard(this);
+            
         })
         
     }
@@ -47,15 +50,15 @@ function appendData(data,i) {
         
         ${ele.stock ? `<select class="chosen-option">
         <option value="1">1</option>
-        <option value="1">2</option>
-        <option value="1">3</option>
-        <option value="1">4</option>
-        <option value="1">5</option>
-        <option value="1">6</option>
-        <option value="1">7</option>
-        <option value="1">8</option>
-        <option value="1">9</option>
-        <option value="1">10</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
     </select>
     <button id="add-to-cart" class="addToBag">Add To Card</button>` :`<button id="product-not-present">Notify me when availabel</button>`}
         </div>
@@ -66,11 +69,54 @@ function appendData(data,i) {
     })
 
 }
+
+
+let itemAddedToArr=JSON.parse(localStorage.getItem('addtoCartData'))||[]
 function popUpAndAddToCard(data){
+    // console.log(data.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.src);
 
+
+  let cartObj={
+    img:data.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.src,
+    name:data.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.innerText,
+    price:data.previousElementSibling.previousElementSibling.lastElementChild.previousElementSibling.innerText,
+    itemCount:data.previousElementSibling.value
+  }
+//    itemAddedToArr.push(cartObj);
+//    console.log('item added',itemAddedToArr);
+   localStorage.setItem('PopUpData',JSON.stringify(cartObj))
+
+   document.querySelector('#popup').innerHTML=popUp();
+   document.querySelector('#popup-wraper').style.display='block'
+
+   document.querySelector('.crossIcon').addEventListener('click',()=>{
+   document.querySelector('#popup').innerHTML=popUp();
+   document.querySelector('#popup-wraper').style.display='none'
+   })
+
+   document.querySelector('#continue_btn').addEventListener('click',()=>{
     document.querySelector('#popup').innerHTML=popUp();
-    // console.log("11111111111111",popUp);
-    document.querySelector('#popup-wraper').style.dispaly="block";
-    
+    document.querySelector('#popup-wraper').style.display='none'
+    })
 
+    //set item as a localstorage 
+    let dupicateData=itemAddedToArr.find((elem)=>{
+        return cartObj.name==elem.name;
+    })
+
+    if(!dupicateData){
+        itemAddedToArr.push(cartObj);
+        localStorage.setItem('addtoCartData',JSON.stringify(itemAddedToArr));
+        document.querySelector('#header').innerHTML=header();
+    
+    }
+    else{
+        alert("Item is already added to cart !!!!!!")
+    }
+
+
+    document.querySelector('#addToBag').addEventListener('click',()=>{
+        window.location.href='../Cart/TotalListItem.html'
+    })
+   
 }

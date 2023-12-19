@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snacks</title>
+    <link rel="stylesheet" href="../Header/header.css">
+    <link rel="stylesheet" href="../Footer/footer.css">
+    <link rel="stylesheet" href="../CSS/meatSea.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+
+
+    <script src="https://kit.fontawesome.com/1a0a802c64.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <main>
+        <div id="header"></div>
+        <div id="humburg">
+            <ul class=" breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li>Vegan Meat & Seafood</li>
+            </ul>
+        </div>
+        <div id="meatfood">
+    
+            <div>
+                <h1> Vegan Meat & Seafood</h1>
+                <p>Serve up a plate of just about any kind of dish using vegan meat or seafood! Sure, they’re meatless but
+                    they’re deliciously savory and great alternatives to animal-derived meats. A lot of the plant-based
+                    seafood you’ll find here has the same salty taste and flaky texture that most know and love. 🐟 The
+                    plant-based meats? As versatile and tasty as their counterparts. 🍖 <a href="#"> Read more</a></p>
+            </div>
+            <div>
+                <!-- <img src="https://veganessentials.com/cdn/shop/files/Vegan-Meat-_-Seafood_1000x.png?v=1676893466" alt="">
+           -->
+    
+            </div>
+        </div>
+    
+        <div class="CardContainer" id="img-cart-container-1"></div>
+
+        <div id="footer"></div>
+       
+    </main>
+    <script type="module" src="../JavaScript/Snacks.js"></script>
+</body>
+</html>
+<script type="module">
+    import {header} from '../Header/header.js';
+    document.querySelector("#header").innerHTML=header();
+
+    import {footer} from '../Footer/footer.js';
+    document.querySelector("#footer").innerHTML=footer();
+
+</script>
